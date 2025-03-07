@@ -3,7 +3,7 @@
 //declaração
 let dados = [];
 
-let numeros = [,2,3,4,5,6,7,8,9];
+let numeros = [1,2,3,4,5,6,7,8,9];
 let palavras = ["bloa","sapato", "caixa", "UGA"];
 
 console.log(numeros.length);// quantidades de elementos
@@ -19,15 +19,28 @@ console.log(numeros[4]);
 palavras.unshift("Ugassius");
 //no final
 palavras.push("BOOGA");
+
 console.log(palavras);
 
 //remoção de elementos
 
 palavras.slice(1,2);//remove pelo indice
+
+//remover elementos
+palavras[2] =  "Estonteado"
+
+//através do índice
+palavras.splice(1,1);
+
 palavras.pop();//ultimo
 
 palavras.shift();//primeiro
-console.log(palavras)
+console.log(palavras);
+
+//percorrer uma array
+for(let i =0;i<numeros.length;i++){
+    console.log("numero["+i+"]="+numeros[i])
+};
 
 //repetição em um Array(forEach)
 palavras.forEach(palavra =>{
