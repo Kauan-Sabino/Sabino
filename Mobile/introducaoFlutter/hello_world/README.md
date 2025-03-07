@@ -1,5 +1,30 @@
 -Introdução flutter
     -Nativo x Multiplataforma
+        -Nativo:
+            -Android:
+                -IDE: Android Studio
+                -SDK: Android SDK
+                -Linguagens : Kotlin / Java
+                -Plataformas: Win / Linux / Mac
+            -IOS:
+                -IDE:Xcode
+                -SDK: Cocoa Touch
+                -Linguagens: Swift / ObjC
+                -Plataformas: Mac
+        -Multiplataforma:
+            -React Native:
+                -Linguagem: JavaScript
+                -Tipos Softwares: Android/Ios/Web
+                -Resultado: Nativo()
+            -Flutter:
+                -Linguagem:Dart
+                -Tipos Softwares:Android/Ios/Web/Linux/Win/Mac
+                -Resultado: Nativos()
+            -Ionic:
+                Lingugem:JavaScript
+                Tipos Softwares: Android/Ios/Web
+                Resultado: Emulado(Runtime)
+
     -Configuração do Ambiente de Desenvolvimento
     -Estrutura de um Aplicativo Flutter
         -Interfaces Linhas de comando (cli)
