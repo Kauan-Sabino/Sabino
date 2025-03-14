@@ -18,9 +18,9 @@ class MainApp extends StatelessWidget {
                 width: 200,
                 height: 200,
                 color: Colors.blue,
-              )
-                ),
-                ],
+              ),
+           ),
+          ],
         ),
       ),
       
